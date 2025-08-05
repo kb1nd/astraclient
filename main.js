@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 const requestListener = function (req, res) {
-  fs.readFile(__dirname + '/index.html')
+  fs.readFile(__dirname + '/EaglercraftX_1.8_u53_Offline_Signed.html')
     .then((contents) => {
       res.setHeader('Content-Type', 'text/html');
       res.writeHead(200);
