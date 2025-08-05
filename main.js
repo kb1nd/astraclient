@@ -18,6 +18,4 @@ const http = require('http');
 const port = process.env.PORT || 10000;
 
 const server = http.createServer(requestListener);
-server.listen(port, () => {
-  console.log(`Server is running on http://${host}:${port}`);
-});
+server.listen(port);
